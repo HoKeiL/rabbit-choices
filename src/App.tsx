@@ -1,7 +1,12 @@
-import { greet } from "./utils/greet";
+import RabbitChoices from "./components/rabbitChoiceApp";
+import "./App.css";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <div>
+      <RabbitChoices />
+    </div>
+  );
 }
 
 export default App;
