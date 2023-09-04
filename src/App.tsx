@@ -1,12 +1,11 @@
-import rabbitChoices from "./components/rabbitChoiceApp";
+import RabbitChoices from "./components/rabbitChoiceApp";
+import "./App.css";
 
 function App(): JSX.Element {
   return (
-    <>
-      <div>
-        <p>{rabbitChoices("🐰")}</p>
-      </div>
-    </>
+    <div>
+      <RabbitChoices />
+    </div>
   );
 }
 
