@@ -16,13 +16,17 @@ export default function RabbitChoices(): JSX.Element {
   function handleButtonTwo() {
     setBoxButtonTwo(false);
     alert("🦊 Game over! You have eaten by a fox!");
-    setWinCount(0);
+    if (boxButtonTwo === false) {
+      setWinCount(0);
+    }
   }
 
   function handleButtonThree() {
     setBoxButtonThree(false);
     alert("🦊 Game over! You have eaten by a fox!");
-    setWinCount(0);
+    if (boxButtonThree === false) {
+      setWinCount(0);
+    }
   }
 
   return (
